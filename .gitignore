@@ -1,0 +1,47 @@
+# Build directories
+build/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+!CMakePresets.json
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.o
+*.a
+*.so
+*.dylib
+
+# vcpkg
+vcpkg_installed/
+.vcpkg/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test outputs
+Testing/
+CTestTestfile.cmake
+
+# Local user presets
+CMakeUserPresets.json
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+.cache/
