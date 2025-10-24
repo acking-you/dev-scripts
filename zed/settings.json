@@ -10,7 +10,7 @@
   "agent": {
     "default_model": {
       "provider": "zed.dev",
-      "model": "grok-4"
+      "model": "grok-code-fast-1"
     },
     "model_parameters": []
   },
@@ -57,6 +57,12 @@
     "C++": {
       "format_on_save": "on",
       "tab_size": 2
+    }
+  },
+  "terminal": {
+    // I will use nushell on Windows platform and zsh on the rest of the platforms
+    "shell": {
+      "program": "nu"
     }
   }
 }
